@@ -1,0 +1,33 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+/* VARIAVEIS */
+:root{
+/* COR */
+--hue: 225;
+/* CORES NO HSL*/
+--cor-primaria: hsl(var(--hue) 92% 40%);
+--cor-secundaria:hsl(var(--hue) 63% 52%);
+--cor-alternativa:hsl(var(--hue) 40% 10%);
+}
+
+body{
+    font-family: 'Glory', sans-serif;
+}
