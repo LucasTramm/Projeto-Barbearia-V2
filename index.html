@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbearia do Contoso 2.0</title>
 
+    <!-- SWIPER css -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
     <!--STYLES-->
     <link rel="stylesheet" href="css/style.css">
 
@@ -97,9 +103,143 @@
                     </div>
                 </div>
             </div>
-        </section>        
+        </section>    
+
+        <div class="line-right"></div>
+        
+        <section class="section" id="depoimentos">
+        <div class="containers">
+          <header>
+            <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+          </header>
+          <div class="depoimentos swiper">
+            <!-- https://swiperjs.com/ -->
+            <div class="swiper-wrapper">
+              <div class="depoimento swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lugar exelente, com messa de sinuca e bons profissionais!!
+                  </p>
+                  <cite>
+                    <!-- https://randomuser.me/ -->
+                    <img src="https://randomuser.me/api/portraits/men/0.jpg" alt="Foto de Carlos Vargas">
+                Plabo Escobar
+                    
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="depoimento swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Profissionais bons e capacitados para atender suas necessidades!!!
+                  </p>
+                  <cite>
+                    <img src="https://randomuser.me/api/portraits/women/57.jpg" alt="Foto de Carole Caldwell">
+            Mi Khalifa
+                   
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="depoimento swiper-slide">
+                <blockquote>
+                    <p>
+                        <span>&ldquo;</span>
+                        Exelente terapia capilar, profissionais bem capacitados!!!
+                    </p>
+                    <cite>
+                        <img src="https://randomuser.me/api/portraits/women/74.jpg" alt="Foto de Judith Bradley">
+                        Juliette Jr
+                    </cite>
+                </blockquote>
+              </div>
+
+              <div class="depoimento swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Muito bom o corte, exelentes profissionais!!!
+                  </p>
+                  <cite>
+                    <img src="https://randomuser.me/api/portraits/men/81.jpg" alt="Foto de Rick ">
+                  Adolfo Hittler
+                  
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="line-left"></div>
+
+      <section class="section" id="contato">
+          <div class="container grid">
+            <div class="text">
+              <h2>Entre em contato com a gente!</h2>
+              <p>Entre em contato com a Barbearia do Contoso, queremos tirar suas dúvidas, ouvir suas críticas e sugestões.</p>
+
+              <a class="button" target="_blank" href="https://api.whatsapp.com/send?phone=+5555999875845&text=Oi! Gostaria de agendar um horário!">
+                <img src="img/whatsapp-logo-4.png" />
+                 Entre em Contato!
+              </a>
+            </div>
+
+            <div class="links">
+              <ul class="grid">
+                  <li><img src="img/phone-call.png" alt="Número de Contato 55 9 9987 5845">55 9 9987 5845</li>
+                  <li><img src="img/map.png" alt="">Rua das ruas, 1234</li>
+                  <li><img src="img/email.png" alt="">contato@contoso.com.br</li>
+              </ul>
+            </div>
+          </div>
+      </section>
+
+      <div class="line-right"></div>
     </main>
 
+    <footer class="section">
+      <div class="container grid">
+          <div class="marca">
+            <a class="logo" href="#">Barbearia do <span>Contoso</span>.</a> 
+            <p>2021 - Barbearia do Contoso.™</p>
+            <p>Todos os direitos reservados.</p>
+          </div>
+
+          <div class="social grid">
+              
+                <a href="http://www.facebook.com/">
+                  <img src="img/face.png" alt="">
+                </a>
+
+                <a href="http://www.youtube.com/">
+                  <img src="img/youtube.png" alt="">
+                </a>
+
+                <a href="http://www.instagram.com/">
+                  <img src="img/insta.png" alt="">
+                </a>
+          </div>
+      </div>
+    </footer>
+
+    <a href="#home" class="voltar-topo">
+      <img src="img/20923.png" alt="">
+    </a>
+
+
+    <!-- SWIPER js -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- ScrollReveal js -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    
     <script src="js/main.js"></script>
 </body>
 </html>
